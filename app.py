@@ -33,6 +33,7 @@ feature_labels = {
     "Latitude": "Latitude",
     "Longitude": "Longitude",
     "hv009": "Household Members",
+    "hv012": "De Jure Household Members",
     "hv201": "Drinking Water Source",
     "hv205": "Toilet Facility",
     "hv206": "Electricity Availability",
