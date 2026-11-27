@@ -167,13 +167,6 @@ if st.button(
         "Estimated Wealth Quintile",
         str(wealth_category).capitalize(),
     )
-
-    st.info(
-        "This is a machine learning estimate, "
-        "not an official DHS wealth classification. "
-        "Predictions may be less reliable for "
-        "households outside the training data."
-    )
-
+    
 st.divider()
-st.caption("Senior Data Science Project | Abbay Basin, Ethiopia")
+st.caption(" Data Science Project | Abbay Basin, Ethiopia")
