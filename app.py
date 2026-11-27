@@ -98,6 +98,13 @@ display_options = {
 user_inputs = {}
 
 for feature in metadata["features"]:
+
+    # Hide hv012 from the application
+    # but keep its default value for the trained model.
+    if feature == "hv012":
+        user_inputs[feature] = metadata["numeric_defaults"][feature]
+        continue
+
     label = feature_labels.get(feature, feature)
 
     if feature in metadata["categorical_features"]:
